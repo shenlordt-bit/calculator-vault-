@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vault_background"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="24dp"
+        android:background="@color/vault_background"
+        app:title="@string/change_pin_title"
+        app:titleTextColor="@color/vault_text" />
+
+    <EditText
+        android:id="@+id/etCurrentPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_current_pin"
+        android:inputType="numberPassword"
+        android:textColor="@color/vault_text"
+        android:textColorHint="#8A8A8E" />
+
+    <EditText
+        android:id="@+id/etNewPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_new_pin"
+        android:inputType="numberPassword"
+        android:textColor="@color/vault_text"
+        android:textColorHint="#8A8A8E" />
+
+    <EditText
+        android:id="@+id/etConfirmPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_confirm_pin"
+        android:inputType="numberPassword"
+        android:textColor="@color/vault_text"
+        android:textColorHint="#8A8A8E" />
+
+    <Button
+        android:id="@+id/btnSavePin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/vault_accent"
+        android:text="@string/btn_save" />
+
+</LinearLayout>

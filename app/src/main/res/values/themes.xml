@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CalculatorVault" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/calc_btn_operator</item>
+        <item name="colorPrimaryDark">@color/calc_background</item>
+        <item name="colorAccent">@color/vault_accent</item>
+        <item name="android:windowBackground">@color/calc_background</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/calc_background</item>
+    </style>

@@ -1,0 +1,30 @@
+<resources>
+    <!-- Label kept generic/innocuous on purpose so the launcher & recents show a plain calculator -->
+    <string name="app_name">Calculator</string>
+
+    <string name="vault_title">Vault</string>
+    <string name="change_pin_title">Ganti PIN</string>
+
+    <string name="setup_title">Buat PIN Vault</string>
+    <string name="setup_message">Aplikasi ini menyimpan berkas privat di balik tampilan kalkulator. Buat PIN numerik (4-8 digit) yang hanya Anda ketahui. PIN ini TIDAK dapat dipulihkan jika lupa.</string>
+    <string name="hint_new_pin">PIN baru (4-8 digit)</string>
+    <string name="hint_confirm_pin">Ulangi PIN</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_cancel">Batal</string>
+
+    <string name="error_pin_length">PIN harus 4-8 digit angka.</string>
+    <string name="error_pin_mismatch">PIN tidak sama, coba lagi.</string>
+    <string name="error_pin_weak">Hindari PIN mudah ditebak seperti 0000 atau 1234.</string>
+
+    <string name="hint_current_pin">PIN saat ini</string>
+
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_change_pin">Ubah PIN</string>
+    <string name="menu_lock_now">Kunci sekarang</string>
+
+    <string name="vault_empty">Belum ada berkas. Tekan + untuk menambah catatan terenkripsi.</string>
+    <string name="add_note_title">Catatan baru</string>
+    <string name="hint_note_content">Tulis isi catatan…</string>
+
+    <string name="lockout_generic_toast">Terlalu banyak percobaan. Coba lagi nanti.</string>
+</resources>

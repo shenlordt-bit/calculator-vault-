@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The app never requests android.permission.INTERNET, so it is physically
+  unable to open a socket regardless of this file. This config exists only
+  as an explicit, auditable statement of intent for anyone reviewing the app.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>
