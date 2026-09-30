@@ -1,6 +1,6 @@
 <resources>
     <!-- Label kept generic/innocuous on purpose so the launcher & recents show a plain calculator -->
-    <string name="app_name">Calculator</string>
+    <string name="app_name">Kalkulator</string>
 
     <string name="vault_title">Vault</string>
     <string name="change_pin_title">Ganti PIN</string>
