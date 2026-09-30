@@ -1,26 +1,39 @@
 <resources>
     <style name="CalcButtonBase">
         <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_height">0dp</item>
         <item name="android:layout_columnWeight">1</item>
-        <item name="android:layout_margin">4dp</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:background">@drawable/calc_button_tile</item>
         <item name="android:elevation">0dp</item>
         <item name="android:stateListAnimator">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
     </style>
 
     <style name="CalcButtonNumber" parent="CalcButtonBase">
-        <item name="android:backgroundTint">@color/calc_btn_number</item>
-        <item name="android:textColor">@color/calc_btn_text_light</item>
-    </style>
-
-    <style name="CalcButtonFunction" parent="CalcButtonBase">
-        <item name="android:backgroundTint">@color/calc_btn_function</item>
-        <item name="android:textColor">@color/calc_btn_text_dark</item>
+        <item name="android:textColor">@color/calc_text_number</item>
+        <item name="android:textSize">21sp</item>
     </style>
 
     <style name="CalcButtonOperator" parent="CalcButtonBase">
-        <item name="android:backgroundTint">@color/calc_btn_operator</item>
-        <item name="android:textColor">@color/calc_btn_text_light</item>
+        <item name="android:textColor">@color/calc_text_operator</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="CalcButtonFunction" parent="CalcButtonBase">
+        <item name="android:textColor">@color/calc_text_function</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CalcButtonEquals" parent="CalcButtonBase">
+        <item name="android:background">@drawable/calc_button_equals</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>
